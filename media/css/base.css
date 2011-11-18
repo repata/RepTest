@@ -1,0 +1,130 @@
+﻿html,body form #wrap {height:100%}
+body {
+    font-family:Arial;font-size:12px;
+    margin:0px;
+}
+* html body{
+  overflow:hidden;
+ } 
+ * html div#content{
+  height:100%;
+  overflow:auto;
+ }
+
+a {color:#f69900;}
+
+.hl_logo {
+    background:transparent URL(../images/logo-tw.png) no-repeat;
+    width:180px;height:51px;
+    display:block;
+}
+hl_maxi{
+    background:transparent URL(../icons/arrow_out.png) no-repeat;
+    padding-left:20px;height:16px;
+}
+
+.pghdr-bar {
+    height:61px;
+    position:fixed;top:0px;
+    width:100%;z-index:999999;
+    
+    /*background: transparent URL(../images/hdr-bg2.gif) repeat-x;*/
+}
+.pghdr-bar-shad {
+    height:10px;
+    background-image:URL(../images/hdrborder1.png);
+    
+}
+.cmt-shell {
+    border:solid 1px silver;
+    background: transparent URL(../images/cmt-bg3.gif) no-repeat;
+    margin-bottom:6px;
+    padding:6px;
+    min-height:24px;
+}
+.cmt-shell-mine {
+    border:solid 1px #FFCc66;
+    background-color:#ffeac1;
+    margin-bottom:6px;
+    padding:6px;
+    min-height:24px;
+}
+.cmt-shell-hl{
+    border:solid 1px yellow;
+}
+
+.cmt-shell-rt {
+    margin-right:150px;
+}
+
+.cmt-shell-lf {
+    margin-left:150px;
+}
+.cmt-time {
+    color:gray;
+}
+.rtbar {
+    float:right;width:220px;
+    
+}
+.content{
+    margin-right:235px;
+    margin-left:24px;
+    
+}
+#wrap {
+    margin-top:68px;
+    height: auto !important; min-height: 100%;
+}
+.un-anon { background:transparent URL(../icons/user_anon.png) no-repeat;
+    padding-left:20px;
+    line-height:16px;}
+.un-star {
+    background:transparent URL(../icons/user_green.png) no-repeat;
+    padding-left:20px;
+    line-height:16px;
+}
+
+#txt_addnew {
+border:solid 1px silver;background:transparent URL(../images/cmt-bg3.gif) no-repeat;height:26px;width:98%;
+padding:3px;
+}
+
+.newlink {
+    font-size:14pt;font-weight:bold;
+    color:#f3934b;text-decoration:underline;
+}
+
+.textsm {font-size:11px;}
+
+
+div#footer {
+    position:fixed;
+    bottom:0;
+    left:0;
+    width:100%;
+    height:51px;
+    background: URL(../images/bar-bg-blue1.gif) repeat-x;
+    color:black;
+} 
+@media screen {
+body>div#footer {
+  position:fixed;
+}
+}
+
+.list1 {
+    list-style:none;margin-left:0;padding-left:8px;
+}
+.list1 li {margin-bottom:6px;}
+
+
+
+.poll {
+    margin-bottom:12px;
+}
+
+.poll ul {list-style:none;margin-left:0;padding-left:8px;}
+.poll ul li {margin-bottom:2px;}
+.poll .btns {}
+.poll p {font-weight:bold;}

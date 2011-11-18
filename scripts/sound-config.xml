@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- SoundManager Flash configuration -->
+<!-- Sound IDs are referenced from JS -->
+
+<items baseHref="" defaultVol="100">
+
+    <sound id="alert01" href="HyprBlip.mp3" />
+    <sound id="alert02" href="Beep.mp3" />
+    <sound id="alert03" href="siren_1.mp3" />
+    <sound id="alert04" href="alarm_1.mp3" />
+
+</items>
